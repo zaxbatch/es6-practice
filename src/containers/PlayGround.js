@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Alert from '../components/Alert';
 import SlideShow from '../components/SlideShow';
 import LittleBox from '../components/LittleBox';
-import NewShit from '../components/NewShit';
+import AddOne from '../components/AddOne';
 
 class PlayGround extends Component {
   render() {
@@ -41,7 +41,7 @@ class PlayGround extends Component {
         </Router>
         <LittleBox />
         <hr />
-        <NewShit />
+        <AddOne />
         </div>
 
 

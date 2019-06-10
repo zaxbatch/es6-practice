@@ -1,6 +1,6 @@
 import React from 'react';
 import props from 'react';
-class NewShit extends React.Component {
+class AddOne extends React.Component {
 
   constructor(props) {
     super(props);
@@ -34,4 +34,4 @@ class NewShit extends React.Component {
     );
   }
 }
-export default NewShit;
+export default AddOne;
