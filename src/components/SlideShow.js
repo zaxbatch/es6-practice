@@ -13,7 +13,7 @@ const Sample = function sample(props) {
   return <div>
             <img className="pic" src={ Pic01 } />
             <br />
-            <Link to="/sample01">One --> Next</Link>
+            <Link to="/playground/sample01">One --> Next</Link>
           </div>
 }
 
@@ -21,7 +21,7 @@ const Sample01 = function sample(props) {
   return <div>
             <img className="pic" src={ Pic02 } />
             <br />
-            <Link to="/sample02">Two --> Next</Link>
+            <Link to="/playground/sample02">Two --> Next</Link>
           </div>
 }
 
@@ -29,13 +29,13 @@ const Sample02 = function sample(props) {
   return <div>
             <img className="pic" src={ Pic03 } />
             <br />
-            <Link to="/sample">Three --> Start Over</Link>
+            <Link to="/playground/sample">Three --> Start Over</Link>
           </div>
 }
 
 const Start = function start() {
   return <div>
-            <Link to="/sample">Start</Link>
+            <Link to="/playground/sample">Start</Link>
           </div>
 
 }
@@ -57,9 +57,9 @@ class SlideShow extends Component {
           
         <div>
              <Start />
-             <Route path="/sample" render={()=><Sample />} />
-             <Route path="/sample01" render={()=><Sample01 />} />
-             <Route path="/sample02" render={()=><Sample02 />} />
+             <Route path="/playground/sample" render={()=><Sample />} />
+             <Route path="/playground/sample01" render={()=><Sample01 />} />
+             <Route path="/playground/sample02" render={()=><Sample02 />} />
           
 
         </div>

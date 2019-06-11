@@ -6,6 +6,7 @@ import Alert from '../components/Alert';
 import SlideShow from '../components/SlideShow';
 import LittleBox from '../components/LittleBox';
 import AddOne from '../components/AddOne';
+import HappySad from '../components/HappySad';
 
 class PlayGround extends Component {
   render() {
@@ -30,18 +31,20 @@ class PlayGround extends Component {
         <div className="container">
           <Router>
           
-        <div>
-            <h1>SlideShow</h1>
-             <SlideShow />
-          <hr />
-           
+          <div>
+              <h1>SlideShow</h1>
+               <SlideShow />
+            <hr />
+             
 
-        </div>
+          </div>
           
         </Router>
         <LittleBox />
         <hr />
         <AddOne />
+        <hr />
+        <HappySad />
         </div>
 
 
